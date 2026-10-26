@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title><style>
+:root { --bg: #ffffff; --fg: #1f1f1f; --muted: #6b6b6b; --accent: #d97757; --code: #f4f1ee; }
+@media (prefers-color-scheme: dark) { :root { --bg: #151515; --fg: #ececec; --muted: #9a9a9a; --code: #222; } }
+body { background: var(--bg); color: var(--fg); margin: 0; font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.6em; line-height: 1.3; } h2 { font-size: 1.15em; margin-top: 2em; } h3 { font-size: 1em; }
+a { color: var(--accent); } nav { font-size: .9em; color: var(--muted); margin-bottom: 24px; }
+pre { background: var(--code); padding: 12px; overflow-x: auto; font-size: 12px; line-height: 1.5; white-space: pre-wrap; }
+footer { margin-top: 48px; font-size: .85em; color: var(--muted); }
+</style></head>
+<body><main><nav><a href="index.html">Pocket Terminal</a> · <a href="privacy.html">한국어</a></nav>
+<h1>Pocket Terminal Privacy Policy</h1>
+<p>Effective date: October 26, 2026</p>
+<p>contentsB (&quot;the developer&quot;) respects the privacy of everyone who uses the Pocket Terminal app (&quot;the app&quot;).</p>
+<h2>1. Summary</h2>
+<ul><li>The developer does not collect your personal information and does not store it on any server. The developer runs no servers.</li><li>The app connects only to your own computer. Terminal output, what you type, files and team conversations travel only between your phone and your computer.</li><li>The app has no ads, no analytics and no tracking.</li></ul>
+<h2>2. Information stored on your phone</h2>
+<p>To keep the connection working, the app stores the following only on your phone (Keychain and app settings). None of it is sent to the developer.</p>
+<ul><li>Name, address, access token and pairing signature key of each computer you connect</li><li>App settings (such as whether Face ID lock is on)</li></ul>
+<p>Deleting the app deletes this information. Removing a computer under &quot;Connected computers&quot; in Settings deletes that computer&#x27;s connection information.</p>
+<h2>3. Device permissions</h2>
+<ul><li>Camera: used only to scan the pairing QR code on your computer screen. No photos are saved or sent.</li><li>Microphone and speech recognition: used only when you give a team instructions by voice. Apple speech recognition turns your voice into text (Apple may process this on its servers under Apple&#x27;s policy), and the text is sent only to your computer. No recordings are saved.</li><li>Face ID: iOS checks your face to unlock the app. The app never receives face data.</li><li>Local network: used to connect to your computer on the same network.</li><li>Notifications: used for approval requests from your computer and team progress.</li></ul>
+<p>You can turn any permission off at any time in iPhone Settings &gt; Pocket Terminal.</p>
+<h2>4. Third-party services used for the connection</h2>
+<p>Instead of a developer server, the app reaches your computer through these services, each of which handles data under its own privacy policy.</p>
+<ul><li>Cloudflare (tunnel): gives your computer a temporary https address reachable from outside. Traffic between your phone and computer passes through Cloudflare&#x27;s network encrypted with https.</li><li>ntfy.sh (address book): each time your computer starts, its new temporary address is posted, with a signature, to a board with a random, hard-to-guess name, and the app reads it from there. Only the temporary address and a timestamp are posted, never terminal content. The address alone is not enough to connect: the token stored on your phone and approval of the device on your computer are also required. ntfy.sh keeps posts for up to 12 hours.</li><li>Apple Push Notification service (APNs): so you get notifications even when the app is closed, your phone&#x27;s push token is stored on your computer, and your computer sends notifications through Apple. Notification text (such as approval requests and team progress) passes through Apple&#x27;s network.</li><li>Anthropic (Claude Code): the app only shows Claude Code running on your computer. Whatever you send to Claude is processed on your computer under your own Anthropic account, and Anthropic&#x27;s terms and privacy policy apply.</li></ul>
+<h2>5. Sharing and processors</h2>
+<p>The developer does not share your personal information with third parties or entrust its processing to anyone. The services in section 4 are communication paths used directly by your phone and your computer.</p>
+<h2>6. Retention and deletion</h2>
+<p>The developer keeps none of your information. Information on your phone is deleted as soon as you delete the app or remove a computer. Information on your computer (approved devices, push tokens) is deleted when you uninstall Pocket Terminal from that computer.</p>
+<h2>7. Children</h2>
+<p>The app is not directed to children under 14.</p>
+<h2>8. Your rights</h2>
+<p>You can delete connection information in the app&#x27;s Settings or turn permissions off at any time. For privacy questions or requests to access, correct or delete information, contact us below.</p>
+<p>Users in other jurisdictions, including the European Union and United Kingdom (GDPR) and California (CCPA/CPRA), have the rights their local law provides, such as access, correction, deletion, restriction, objection and the right to complain to a supervisory authority. Because the developer keeps none of your information, you can delete almost all of it yourself on your phone and computer. The developer does not sell personal information or share it for advertising.</p>
+<h2>9. Privacy contact</h2>
+<ul><li>Name: contentsB</li><li>Email: <a href="mailto:bavoya@gmail.com">bavoya@gmail.com</a></li></ul>
+<h2>10. Changes</h2>
+<p>If this policy changes, the app and this page will show the new version with its effective date.</p>
+<footer>© 2026 contentsB · <a href="mailto:bavoya@gmail.com">bavoya@gmail.com</a></footer></main></body></html>
